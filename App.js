@@ -5,8 +5,6 @@ import Loading from "./Loading";
 import * as Location from "expo-location";
 import axios from "axios";
 
-const API_KEY = "3cf4a08ded88b43f79da1e2b3def0c4b";
-
 export default class App extends React.Component {
   state = {
     isLoading: true,
